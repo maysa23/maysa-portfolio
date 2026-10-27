@@ -1,0 +1,600 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Maysa Hamed — Computer Engineering graduate interested in web development, field research, data collection, and community engagement.">
+<meta name="theme-color" content="#07111f">
+<title>Maysa Hamed | Personal Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header id="header" class="site-header">
+  <div class="nav-container">
+    <a href="#home" class="logo">
+      <span class="logo-icon"><i class="fa-solid fa-code"></i></span>
+      <span>Maysa <strong>Hamed</strong></span>
+    </a>
+
+    <nav aria-label="Main navigation">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
+        <li><a href="#about" data-ar="نبذة عني" data-en="About">نبذة عني</a></li>
+        <li><a href="#skills" data-ar="المهارات" data-en="Skills">المهارات</a></li>
+        <li><a href="#projects" data-ar="المشاريع" data-en="Projects">المشاريع</a></li>
+        <li><a href="#experience" data-ar="الخبرات" data-en="Experience">الخبرات</a></li>
+        <li><a href="#contact" data-ar="تواصل معي" data-en="Contact">تواصل معي</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button class="language-toggle" id="languageToggle" type="button"
+        aria-label="Switch to English" aria-pressed="false">
+        <i class="fa-solid fa-globe"></i>
+        <span id="languageLabel">EN</span>
+      </button>
+
+      <button class="menu-toggle" id="menuToggle" type="button"
+        aria-label="Open navigation menu" aria-expanded="false"
+        aria-controls="navLinks">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-container">
+
+    <div class="hero-text">
+      <div class="subtitle-badge">
+        <span class="status-dot"></span>
+        <span data-ar="خريجة هندسة حاسوب | باحثة ميدانية"
+          data-en="Computer Engineering Graduate | Field Researcher">خريجة هندسة حاسوب | باحثة ميدانية</span>
+      </div>
+
+      <p class="hero-greeting" data-ar="مرحبًا، أنا" data-en="Hello, I'm">مرحبًا، أنا</p>
+
+      <h1>
+        <span class="hero-name" data-ar="ميساء حمد" data-en="Maysa Hamed">ميساء حمد</span>
+      </h1>
+
+      <h2 class="hero-role"
+        data-ar="أجمع بين التكنولوجيا والعمل الإنساني"
+        data-en="Connecting Technology and Humanitarian Work">
+        أجمع بين التكنولوجيا والعمل الإنساني
+      </h2>
+
+      <p class="hero-description"
+        data-ar="خريجة هندسة حاسوب مهتمة بتطوير الويب وجمع البيانات والبحث الميداني والتواصل المجتمعي. أسعى إلى توظيف مهاراتي التقنية والرقمية لدعم المشاريع التي تخدم الناس وتلبي احتياجاتهم."
+        data-en="A Computer Engineering graduate interested in web development, data collection, field research, and community engagement. I aim to use my technical and digital skills to support projects that serve people and address community needs.">
+        خريجة هندسة حاسوب مهتمة بتطوير الويب وجمع البيانات والبحث الميداني والتواصل المجتمعي. أسعى إلى توظيف مهاراتي التقنية والرقمية لدعم المشاريع التي تخدم الناس وتلبي احتياجاتهم.
+      </p>
+
+      <div class="hero-highlights">
+        <span><i class="fa-solid fa-code"></i><span data-ar="تطوير الويب" data-en="Web Development">تطوير الويب</span></span>
+        <span><i class="fa-solid fa-database"></i><span data-ar="جمع البيانات" data-en="Data Collection">جمع البيانات</span></span>
+        <span><i class="fa-solid fa-people-group"></i><span data-ar="العمل المجتمعي" data-en="Community Work">العمل المجتمعي</span></span>
+      </div>
+
+      <div class="btn-group">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fa-solid fa-laptop-code"></i>
+          <span data-ar="استكشفي مشاريعي" data-en="Explore My Projects">استكشفي مشاريعي</span>
+        </a>
+
+        <a href="Maysa%20Hamed.pdf" class="btn btn-outline"
+          target="_blank" rel="noopener">
+          <i class="fa-solid fa-eye"></i>
+          <span data-ar="عرض السيرة الذاتية" data-en="View My CV">عرض السيرة الذاتية</span>
+        </a>
+
+        <a href="Maysa%20Hamed.pdf" class="btn btn-outline"
+          download="Maysa-Hamed-CV.pdf">
+          <i class="fa-solid fa-download"></i>
+          <span data-ar="تحميل السيرة الذاتية" data-en="Download My CV">تحميل السيرة الذاتية</span>
+        </a>
+      </div>
+
+      <div class="hero-socials">
+        <a href="https://github.com/maysa23"
+          target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/maysa-hamed-387968238"
+          target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=maysahamad810@gmail.com"
+   target="_blank"
+   rel="noopener"
+   aria-label="Email">
+  <i class="fa-regular fa-envelope"></i>
+</a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="avatar-card">
+        <div class="avatar-decoration avatar-decoration-one"></div>
+        <div class="avatar-decoration avatar-decoration-two"></div>
+
+        <div class="avatar-img">
+          <img src="images/maysa-img.jpg" alt="My Photo">
+            onerror="this.hidden=true;this.parentElement.classList.add('no-photo')">
+          <div class="avatar-fallback"><i class="fa-solid fa-user-graduate"></i></div>
+        </div>
+
+        <div class="floating-card floating-card-top">
+          <i class="fa-solid fa-code"></i>
+          <span data-ar="مهارات تقنية" data-en="Technical Skills">مهارات تقنية</span>
+        </div>
+
+        <div class="floating-card floating-card-bottom">
+          <i class="fa-solid fa-heart"></i>
+          <span data-ar="أثر مجتمعي" data-en="Community Impact">أثر مجتمعي</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section about-section" id="about">
+  <div class="section-container">
+
+    <div class="section-heading">
+      <span class="section-eyebrow" data-ar="تعرّفوا عليّ" data-en="GET TO KNOW ME">تعرّفوا عليّ</span>
+      <h2 class="section-title" data-ar="نبذة عني" data-en="About Me">نبذة عني</h2>
+      <p class="section-subtitle"
+        data-ar="خلفية تقنية، وتجربة ميدانية، وشغف بالتعلم والتطوير."
+        data-en="A technical background, field experience, and a passion for learning and growth.">
+        خلفية تقنية، وتجربة ميدانية، وشغف بالتعلم والتطوير.
+      </p>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-content">
+        <h3 data-ar="من أنا؟" data-en="Who Am I?">من أنا؟</h3>
+
+        <p
+          data-ar="أنا ميساء حمد، خريجة هندسة حاسوب من جامعة غزة بمعدل تراكمي 83.77%. لدي تجربة في البحث الميداني وجمع البيانات والتواصل المجتمعي، إلى جانب اهتمامي بتطوير الويب واستخدام الأدوات الرقمية."
+          data-en="I am Maysa Hamed, a Computer Engineering graduate from the University of Gaza with a cumulative GPA of 83.77%. I have experience in field research, data collection, and community engagement, alongside an interest in web development and digital tools.">
+          أنا ميساء حمد، خريجة هندسة حاسوب من جامعة غزة بمعدل تراكمي 83.77%. لدي تجربة في البحث الميداني وجمع البيانات والتواصل المجتمعي، إلى جانب اهتمامي بتطوير الويب واستخدام الأدوات الرقمية.
+        </p>
+
+        <p
+          data-ar="أهتم بالتعلم المستمر، وتنظيم المعلومات بدقة، والتواصل باحترام مع أفراد المجتمع، واستخدام التكنولوجيا وأدوات الذكاء الاصطناعي كوسائل مساعدة في العمل والتعلم وحل المشكلات."
+          data-en="I value continuous learning, accurate information management, respectful communication with communities, and using technology and AI tools to support work, learning, and problem-solving.">
+          أهتم بالتعلم المستمر، وتنظيم المعلومات بدقة، والتواصل باحترام مع أفراد المجتمع، واستخدام التكنولوجيا وأدوات الذكاء الاصطناعي كوسائل مساعدة في العمل والتعلم وحل المشكلات.
+        </p>
+
+        <a href="#contact" class="text-link">
+          <span data-ar="تواصلي معي" data-en="Get in Touch">تواصلي معي</span>
+          <i class="fa-solid fa-arrow-left"></i>
+        </a>
+      </div>
+
+      <div class="about-facts">
+        <article class="fact-card">
+          <div class="fact-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <h3 data-ar="التعليم" data-en="Education">التعليم</h3>
+          <p data-ar="بكالوريوس هندسة حاسوب" data-en="Bachelor's in Computer Engineering">بكالوريوس هندسة حاسوب</p>
+        </article>
+
+        <article class="fact-card">
+          <div class="fact-icon"><i class="fa-solid fa-chart-line"></i></div>
+          <h3 data-ar="المعدل التراكمي" data-en="Cumulative GPA">المعدل التراكمي</h3>
+          <p>83.77%</p>
+        </article>
+
+        <article class="fact-card">
+          <div class="fact-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <h3 data-ar="الموقع" data-en="Location">الموقع</h3>
+          <p data-ar="قطاع غزة، فلسطين" data-en="Gaza Strip, Palestine">قطاع غزة، فلسطين</p>
+        </article>
+
+        <article class="fact-card">
+          <div class="fact-icon"><i class="fa-solid fa-bullseye"></i></div>
+          <h3 data-ar="مجالات الاهتمام" data-en="Areas of Interest">مجالات الاهتمام</h3>
+          <p data-ar="التكنولوجيا والعمل الإنساني" data-en="Technology & Humanitarian Work">التكنولوجيا والعمل الإنساني</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section skills-section" id="skills">
+  <div class="section-container">
+
+    <div class="section-heading">
+      <span class="section-eyebrow" data-ar="ما الذي أستطيع تقديمه؟" data-en="WHAT I BRING">ما الذي أستطيع تقديمه؟</span>
+      <h2 class="section-title" data-ar="المهارات والأدوات" data-en="Skills & Tools">المهارات والأدوات</h2>
+      <p class="section-subtitle"
+        data-ar="مهارات تقنية وميدانية ورقمية أعمل على تطويرها باستمرار."
+        data-en="Technical, fieldwork, and digital skills that I continue to develop.">
+        مهارات تقنية وميدانية ورقمية أعمل على تطويرها باستمرار.
+      </p>
+    </div>
+
+    <div class="skills-grid">
+      <article class="skill-card">
+        <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+        <h3 data-ar="تطوير الويب" data-en="Web Development">تطوير الويب</h3>
+        <p data-ar="أساسيات تطوير واجهات الويب والعمل على المشاريع البرمجية."
+          data-en="Web interface fundamentals and hands-on work on software projects.">
+          أساسيات تطوير واجهات الويب والعمل على المشاريع البرمجية.
+        </p>
+        <div class="skill-tags">
+          <span class="tag">HTML5</span><span class="tag">CSS3</span>
+          <span class="tag">JavaScript</span><span class="tag">React.js</span>
+          <span class="tag">Node.js</span>
+        </div>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+        <h3 data-ar="جمع البيانات وإدارتها" data-en="Data Collection & Management">جمع البيانات وإدارتها</h3>
+        <p data-ar="جمع المعلومات وتنظيم السجلات والاهتمام بجودة البيانات وسريتها."
+          data-en="Collecting information, organizing records, and maintaining data quality and confidentiality.">
+          جمع المعلومات وتنظيم السجلات والاهتمام بجودة البيانات وسريتها.
+        </p>
+        <div class="skill-tags">
+          <span class="tag">KoboToolbox</span><span class="tag">ODK</span>
+          <span class="tag">Google Forms</span><span class="tag">Excel</span>
+          <span class="tag">Word</span><span class="tag">Database Management</span>
+        </div>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-icon"><i class="fa-solid fa-people-group"></i></div>
+        <h3 data-ar="البحث والعمل الميداني" data-en="Field Research & Community Work">البحث والعمل الميداني</h3>
+        <p data-ar="المشاركة في جمع البيانات الميدانية والتواصل المجتمعي والأنشطة التوعوية."
+          data-en="Participating in field data collection, community engagement, and awareness activities.">
+          المشاركة في جمع البيانات الميدانية والتواصل المجتمعي والأنشطة التوعوية.
+        </p>
+        <div class="skill-tags">
+          <span class="tag">Field Research</span><span class="tag">Household Surveys</span>
+          <span class="tag">Community Outreach</span><span class="tag">Internet Research</span>
+        </div>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+        <h3 data-ar="أدوات الذكاء الاصطناعي" data-en="AI Tools & Digital Productivity">أدوات الذكاء الاصطناعي</h3>
+        <p data-ar="استخدام أدوات الذكاء الاصطناعي للمساعدة في البحث وتنظيم المعلومات والبرمجة والتصميم والتعلم."
+          data-en="Using AI tools to support research, information organization, coding, design, and learning.">
+          استخدام أدوات الذكاء الاصطناعي للمساعدة في البحث وتنظيم المعلومات والبرمجة والتصميم والتعلم.
+        </p>
+        <div class="skill-tags">
+          <span class="tag">ChatGPT</span><span class="tag">Gemini</span><span class="tag">Canva AI</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section projects-section" id="projects">
+  <div class="section-container">
+
+    <div class="section-heading">
+      <span class="section-eyebrow" data-ar="أعمال ومشاريع" data-en="SELECTED WORK">أعمال ومشاريع</span>
+      <h2 class="section-title" data-ar="المشاريع" data-en="Projects">المشاريع</h2>
+      <p class="section-subtitle"
+        data-ar="مشاريع تقنية توضّح ما أتعلمه وأطبّقه عمليًا."
+        data-en="Technical projects that demonstrate what I am learning and building.">
+        مشاريع تقنية توضّح ما أتعلمه وأطبّقه عمليًا.
+      </p>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- SMART HOSPITAL -->
+      <article class="project-card">
+        <div class="project-image">
+          <img src="images/smart-hospital.png"
+            alt="Smart Hospital Monitoring System project preview"
+            loading="lazy"
+            onerror="this.hidden=true;this.parentElement.classList.add('image-fallback')">
+
+          <div class="project-image-fallback">
+            <i class="fa-solid fa-heart-pulse"></i>
+            <span>Smart Hospital</span>
+          </div>
+
+          <span class="project-category"
+            data-ar="مشروع تخرج" data-en="Graduation Project">مشروع تخرج</span>
+        </div>
+
+        <div class="project-body">
+          <h3>Smart Hospital Monitoring System</h3>
+          <h4 data-ar="نظام مراقبة وتنبيه للمستشفى الذكي"
+            data-en="Smart Hospital Monitoring & Alert System">
+            نظام مراقبة وتنبيه للمستشفى الذكي
+          </h4>
+
+          <p
+            data-ar="مشروع تخرج جامعي لتصميم نظام ويب لمراقبة معلومات المرضى والتنبيهات ضمن بيئة تجريبية تعليمية. يتضمن المشروع واجهات React وTypeScript، وأهدافًا للمصادقة وإدارة البيانات باستخدام Firebase، مع الاعتماد حاليًا على بيانات اصطناعية ومحاكيات محلية للاختبار والعرض."
+            data-en="A university graduation project exploring a web-based system for patient information monitoring and alerts in an educational demo environment. It includes a React and TypeScript frontend, with Firebase authentication and data services targeted for development. The current development phase uses synthetic data and local emulators for testing and demonstration.">
+            مشروع تخرج جامعي لتصميم نظام ويب لمراقبة معلومات المرضى والتنبيهات ضمن بيئة تجريبية تعليمية. يتضمن المشروع واجهات React وTypeScript، وأهدافًا للمصادقة وإدارة البيانات باستخدام Firebase، مع الاعتماد حاليًا على بيانات اصطناعية ومحاكيات محلية للاختبار والعرض.
+          </p>
+
+          <div class="skill-tags">
+            <span class="tag">React</span>
+            <span class="tag">Vite</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">Firebase Emulator</span>
+            <span class="tag">Vitest</span>
+          </div>
+
+          <div class="project-links">
+            <a class="project-link"
+              href="https://github.com/maysa23/Smart-Hospital-Monitoring-System"
+              target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-github"></i>
+              <span data-ar="تفاصيل المشروع والكود"
+                data-en="Project Details & Code">تفاصيل المشروع والكود</span>
+            </a>
+
+            <span class="project-note"
+              data-ar="بيئة تطوير تجريبية"
+              data-en="Development Demo Environment">بيئة تطوير تجريبية</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- ALPHABET A-Z -->
+      <article class="project-card">
+        <div class="project-image">
+          <img src="images/alphabet-preview.png"
+            alt="Alphabet A to Z educational website preview"
+            loading="lazy"
+            onerror="this.hidden=true;this.parentElement.classList.add('image-fallback')">
+
+          <div class="project-image-fallback">
+            <i class="fa-solid fa-spell-check"></i>
+            <span>Alphabet A–Z</span>
+          </div>
+
+          <span class="project-category"
+            data-ar="مشروع تعليمي" data-en="Learning Project">مشروع تعليمي</span>
+        </div>
+
+        <div class="project-body">
+          <h3>Alphabet A–Z</h3>
+          <h4 data-ar="تعلّم الحروف الإنجليزية بطريقة تفاعلية"
+            data-en="Interactive English Alphabet Learning">
+            تعلّم الحروف الإنجليزية بطريقة تفاعلية
+          </h4>
+
+          <p
+            data-ar="موقع تعليمي تفاعلي يساعد المتعلمين على استكشاف الحروف الإنجليزية من A إلى Z. عند اختيار حرف، يمكن عرض كلمة وصورة مرتبطة به لدعم التعرّف إلى الحروف والمفردات بطريقة بصرية مبسطة."
+            data-en="An interactive educational website that helps learners explore the English alphabet from A to Z. Selecting a letter displays a related word and image, supporting letter recognition and vocabulary learning through simple visual interaction.">
+            موقع تعليمي تفاعلي يساعد المتعلمين على استكشاف الحروف الإنجليزية من A إلى Z. عند اختيار حرف، يمكن عرض كلمة وصورة مرتبطة به لدعم التعرّف إلى الحروف والمفردات بطريقة بصرية مبسطة.
+          </p>
+
+          <div class="skill-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+
+          <div class="project-links">
+            <a class="project-link"
+              href="https://github.com/maysa23/Alphabet-A-Z"
+              target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-github"></i>
+              <span data-ar="عرض الكود على GitHub"
+                data-en="View Code on GitHub">عرض الكود على GitHub</span>
+            </a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="section experience-section" id="experience">
+  <div class="section-container">
+
+    <div class="section-heading">
+      <span class="section-eyebrow"
+        data-ar="رحلتي العملية والمجتمعية"
+        data-en="PROFESSIONAL & COMMUNITY JOURNEY">رحلتي العملية والمجتمعية</span>
+
+      <h2 class="section-title"
+        data-ar="الخبرات والتطوع" data-en="Experience & Volunteering">الخبرات والتطوع</h2>
+
+      <p class="section-subtitle"
+        data-ar="تجارب ساهمت في تطوير مهاراتي الميدانية والتواصلية."
+        data-en="Experiences that have helped develop my fieldwork and communication skills.">
+        تجارب ساهمت في تطوير مهاراتي الميدانية والتواصلية.
+      </p>
+    </div>
+
+    <div class="timeline">
+
+      <article class="timeline-item">
+        <div class="timeline-marker"><i class="fa-solid fa-clipboard-check"></i></div>
+        <div class="timeline-content">
+          <span class="timeline-type" data-ar="خبرة عملية" data-en="Professional Experience">خبرة عملية</span>
+          <h3 data-ar="باحثة ميدانية / نقطة اتصال ميدانية"
+            data-en="Field Researcher / Field Focal Point">باحثة ميدانية / نقطة اتصال ميدانية</h3>
+          <h4>Norwegian Refugee Council (NRC)</h4>
+          <p class="timeline-date" data-ar="يوليو – أكتوبر 2026" data-en="July – October 2026">يوليو – أكتوبر 2026</p>
+          <p
+            data-ar="المشاركة في أنشطة البحث وجمع البيانات الميدانية، والتواصل مع أفراد المجتمع، ودعم تنظيم المعلومات لأغراض المتابعة."
+            data-en="Participated in field research and data collection, community communication, and organizing information to support follow-up activities.">
+            المشاركة في أنشطة البحث وجمع البيانات الميدانية، والتواصل مع أفراد المجتمع، ودعم تنظيم المعلومات لأغراض المتابعة.
+          </p>
+        </div>
+      </article>
+
+      <article class="timeline-item">
+        <div class="timeline-marker"><i class="fa-solid fa-people-roof"></i></div>
+        <div class="timeline-content">
+          <span class="timeline-type" data-ar="دعم مجتمعي" data-en="Community Support">دعم مجتمعي</span>
+          <h3 data-ar="دعم أنشطة لجنة المرأة والطفل"
+            data-en="Women & Child Committee Support">دعم أنشطة لجنة المرأة والطفل</h3>
+          <h4 data-ar="إدارة مخيم أرض السرايا"
+            data-en="Ard Al-Saraya Camp Management">إدارة مخيم أرض السرايا</h4>
+          <p
+            data-ar="المساعدة في أنشطة لجنة المرأة والطفل، وجمع البيانات الأسرية، وتنظيم السجلات، والتواصل مع أفراد المجتمع."
+            data-en="Supported Women and Child Committee activities, household data collection, record organization, and communication with community members.">
+            المساعدة في أنشطة لجنة المرأة والطفل، وجمع البيانات الأسرية، وتنظيم السجلات، والتواصل مع أفراد المجتمع.
+          </p>
+        </div>
+      </article>
+
+      <article class="timeline-item">
+        <div class="timeline-marker"><i class="fa-solid fa-hand-holding-heart"></i></div>
+        <div class="timeline-content">
+          <span class="timeline-type" data-ar="مشاركة تطوعية" data-en="Volunteer Activities">مشاركة تطوعية</span>
+          <h3 data-ar="التوعية والمبادرات المجتمعية"
+            data-en="Community Awareness & Initiatives">التوعية والمبادرات المجتمعية</h3>
+          <h4 data-ar="مؤسسات ومبادرات مجتمعية متعددة"
+            data-en="Community Organizations & Initiatives">مؤسسات ومبادرات مجتمعية متعددة</h4>
+          <p
+            data-ar="المشاركة في أنشطة وندوات توعوية حول حقوق المرأة والعنف القائم على النوع الاجتماعي وموضوعات اجتماعية، إلى جانب المساهمة في المبادرات المجتمعية."
+            data-en="Participated in awareness sessions on women's rights, gender-based violence, and social topics, alongside contributing to community initiatives.">
+            المشاركة في أنشطة وندوات توعوية حول حقوق المرأة والعنف القائم على النوع الاجتماعي وموضوعات اجتماعية، إلى جانب المساهمة في المبادرات المجتمعية.
+          </p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- COMMUNITY ENGAGEMENT -->
+<section class="section community-section" id="community">
+  <div class="section-container community-content">
+
+    <div class="community-text">
+      <span class="section-eyebrow"
+        data-ar="العمل مع المجتمع" data-en="COMMUNITY ENGAGEMENT">العمل مع المجتمع</span>
+
+      <h2
+        data-ar="التكنولوجيا مهمة، والإنسان هو الأساس"
+        data-en="Technology Matters. People Come First.">
+        التكنولوجيا مهمة، والإنسان هو الأساس
+      </h2>
+
+      <p
+        data-ar="من خلال تجربتي الميدانية في غزة، تعلّمت أهمية الاستماع للناس، واحترام خصوصيتهم، والتعامل مع المعلومات بمسؤولية. أطمح إلى الجمع بين هذه القيم ومهاراتي التقنية للمساهمة في أعمال ذات أثر إيجابي."
+        data-en="Through my fieldwork experience in Gaza, I learned the importance of listening to people, respecting their privacy, and handling information responsibly. I aim to combine these values with my technical skills to contribute to meaningful work.">
+        من خلال تجربتي الميدانية في غزة، تعلّمت أهمية الاستماع للناس، واحترام خصوصيتهم، والتعامل مع المعلومات بمسؤولية. أطمح إلى الجمع بين هذه القيم ومهاراتي التقنية للمساهمة في أعمال ذات أثر إيجابي.
+      </p>
+    </div>
+
+    <div class="community-visual">
+      <img
+        src="images/community-engagement.png"
+        alt="Community engagement and humanitarian fieldwork"
+        class="community-image"
+        loading="lazy"
+        onerror="this.hidden=true;this.parentElement.classList.add('image-fallback')">
+
+      <span data-ar="التواصل • المسؤولية • الأثر"
+        data-en="Connection • Responsibility • Impact">
+        التواصل • المسؤولية • الأثر
+      </span>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact-section" id="contact">
+  <div class="section-container">
+
+    <div class="section-heading">
+      <span class="section-eyebrow" data-ar="لنتواصل" data-en="LET'S CONNECT">لنتواصل</span>
+
+      <h2 class="section-title"
+        data-ar="هل لديك فرصة أو مشروع?"
+        data-en="Have an Opportunity or Project?">
+        هل لديك فرصة أو مشروع؟
+      </h2>
+
+      <p class="section-subtitle"
+        data-ar="يسعدني التواصل بشأن فرص العمل والتعاون والمشاريع التي تجمع بين التقنية والعمل المجتمعي."
+        data-en="I welcome conversations about job opportunities, collaboration, and projects connecting technology with community work.">
+        يسعدني التواصل بشأن فرص العمل والتعاون والمشاريع التي تجمع بين التقنية والعمل المجتمعي.
+      </p>
+    </div>
+
+    <div class="contact-cards">
+      <a href="mailto:maysahamad810@gmail.com" class="contact-card">
+        <span class="contact-icon"><i class="fa-solid fa-envelope"></i></span>
+        <span>Email</span>
+        <small>maysahamad810@gmail.com</small>
+      </a>
+
+      <a href="https://wa.me/972592551274" class="contact-card"
+        target="_blank" rel="noopener noreferrer">
+        <span class="contact-icon"><i class="fa-brands fa-whatsapp"></i></span>
+        <span>WhatsApp</span>
+        <small data-ar="راسِليني مباشرة" data-en="Message me directly">راسِليني مباشرة</small>
+      </a>
+
+      <a href="https://www.linkedin.com/in/maysa-hamed-387968238"
+        class="contact-card" target="_blank" rel="noopener noreferrer">
+        <span class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></span>
+        <span>LinkedIn</span>
+        <small data-ar="ملفي المهني" data-en="Professional profile">ملفي المهني</small>
+      </a>
+
+      <a href="https://github.com/maysa23" class="contact-card"
+        target="_blank" rel="noopener noreferrer">
+        <span class="contact-icon"><i class="fa-brands fa-github"></i></span>
+        <span>GitHub</span>
+        <small>github.com/maysa23</small>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-container">
+    <a href="#home" class="footer-logo">Maysa <strong>Hamed</strong></a>
+
+    <p class="footer-description"
+      data-ar="خريجة هندسة حاسوب مهتمة بالتكنولوجيا والبحث والعمل المجتمعي."
+      data-en="Computer Engineering graduate interested in technology, research, and community work.">
+      خريجة هندسة حاسوب مهتمة بالتكنولوجيا والبحث والعمل المجتمعي.
+    </p>
+
+    <div class="footer-divider"></div>
+
+    <p class="copyright">
+      © <span id="currentYear"></span> Maysa Hamed.
+      <span data-ar="جميع الحقوق محفوظة" data-en="All rights reserved.">جميع الحقوق محفوظة</span>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
